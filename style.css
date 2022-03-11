@@ -1,0 +1,36 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    color: #3959d7 !important;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.buttonn {
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #3b5bd9, #2444c3);
+    color: white !important; 
+    border-radius: 5px;
+}
+
+#header-menu {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin-inline: 6%;
+    padding: 0;
+}
+
+#header-menu li {
+    padding: 10px;
+    float: left;
+    margin-inline: 1%;
+    color: #6d7b93;
+}
+
+#header-menu .logo {
+    margin-right: 30%;
+}
