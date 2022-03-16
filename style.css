@@ -63,7 +63,7 @@ p {
     clear: none;
 }
 
-.info{
+.info {
     text-align: center;
 }
 
@@ -79,17 +79,17 @@ p {
     justify-content: center;
 }
 
-.description{
+.description {
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    position: relative;    
+    position: relative;
     flex-direction: column;
     justify-content: center;
 }
 
 .description h1 {
-    text-align: left;    
+    text-align: left;
 }
 
 .info p {
@@ -99,7 +99,7 @@ p {
 
 #labels-1 {
     display: inline-block;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 #labels-1 ul {
@@ -135,7 +135,7 @@ p {
     display: inline-block;
 }
 
-#schedule-label{
+#schedule-label {
     margin: 0 auto;
 }
 
@@ -249,4 +249,22 @@ p {
     position: absolute;
     left: 60%;
     transform: translate(-50%, 0%);
+}
+
+.section-2 {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-2 img {
+    filter: sepia(100%) hue-rotate(175deg) saturate(150%);
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    padding-inline: 50px;        
+    top: 50%;
+    transform: translateY(-50%);
 }
