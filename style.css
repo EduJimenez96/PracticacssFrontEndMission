@@ -281,9 +281,9 @@ p {
     margin-bottom: 60px;
 }
 
-.section-3 .s3-p{
+.section-3 .s3-p {
     padding-inline-end: 55%;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
 
 .section-3 div {
@@ -303,25 +303,141 @@ p {
     margin-bottom: 10px !important;
     width: fit-content;
     height: fit-content;
-    border-radius: 5px;   
-    box-shadow: unset; 
+    border-radius: 5px;
+    box-shadow: unset;
 }
 
 .section-3 div h4 {
     color: #1f3e72;
 }
 
-.card-icon span{
-    transform: translateY(5%);    
+.card-icon span {
+    transform: translateY(5%);
     color: #2444c3;
     margin: 0 auto;
     font-size: 30px;
 }
 
-.section-3 .p-s3{
+.section-3 .p-s3 {
     font-size: 14px;
-    color: #6d7b93;    
+    color: #6d7b93;
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+
+.bg-image2 {
+    background-image: linear-gradient(to bottom right, #109ce7, #3359cc);
+}
+
+.bg-image2 img {
+    display: block;
+    height: 500px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-4 {
+    margin-top: 850px;
+    display: block;
+}
+
+.section-4 div {
+    position: relative;
+    float: left;
+    width: 50%;
+    clear: none;
+}
+
+
+.bg-image2 {
+    background-image: linear-gradient(to bottom right, #109ce7, #3359cc);
+}
+
+.bg-image2 img {
+    display: block;
+    height: 500px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#things {
+    list-style: none;
+    padding-left: 20%;
+    position: relative;
+}
+
+#things li {
+    display: block;
+    width: 700px;    
+}
+
+.thing-div {
+    padding: 10px 20px 10px 20px;
+    text-align: start;
+    color: #1f3e72;
+    border: solid;
+    border-color: #fafaff;
+    border-radius: 10px;
+    vertical-align: middle;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.thing-div span {
+    transform: translateY(5%);
+    color: #2444c3;
+    margin: 0 auto;
+}
+
+.thing-div label {
+    margin-left: 10px;
+}
+
+.thing-div div {
+    background: rgba(83, 163, 255, 0.15);
+    padding: 6px;
+    margin: 0px;
+    margin-bottom: 10px !important;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: unset;
+}
+
+.thing-div .drop-down {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px !important;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+#things li:nth-child(2) .thing-div .drop-down {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px !important;
+    margin-right: 6px !important;
+    margin-top: 6px !important;
+}
+
+#things li:nth-child(2) .thing-div .drop-down {
+    background: rgba(239, 243, 255, 0.15) !important;
+}
+
+#things li:nth-child(2) .thing-div{
+    background: rgba(239, 243, 255, 0.15) !important;
+    height: fit-content;
+}
+
+#things li:nth-child(2) .thing-div .drop-down span {
+    color: #6d7b93 !important;
+}
+
+#things li:nth-child(2) .thing-div .stress {
+    font-size: 12px !important;
 }
